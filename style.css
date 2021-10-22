@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.terrain{
+    position: relative;
+    border: 1px solid black;
+    width: 700px;
+    height: 700px;
+}
+.head{
+    position: absolute;
+    border-radius: 45%;
+    background-color: rgb(112, 9, 9);
+    border: 0px solid black;
+    width: 35px;
+    height: 35px;
+    left: 140px;
+    top: 140px
+}
+.tile{
+    position: absolute;
+    border-radius: 45%;
+    background-color: rgba(82, 6, 6, 0.5);
+    border: 1px solid rgba(100, 5, 5, 0.411);
+    width: 35px;
+    height: 35px;
+}
+#one{
+    left: 105px;
+    top: 140px;
+}
+#two{
+    left: 70px;
+    top: 140px;
+}
+#three{
+    left: 35px;
+    top: 140px;
+}
+#four{
+    left: 0px;
+    top: 140px;
+}
+
+.food{
+    position: absolute;
+    left: 210px;
+    top: 210px;
+    background-color: rgb(9, 112, 48);
+    width: 35px;
+    height: 35px;
+    border-radius: 45%;
+}
